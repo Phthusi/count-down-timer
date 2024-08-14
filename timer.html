@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+
+<body>
+    <div class="time-div">
+        <div class="time">
+            <form action="" id="set-time-form">
+                <div>
+                    <label for="hours">Hours:</label>
+                    <input type="number" min="0" value="00" max="23" name="hours" id="hours">
+                    <label for="minutes">Minutes:</label>
+                    <input type="number" min="0" value="00" max="59" name="minutes" id="minutes">
+                    <label for="seconds">Seconds:</label>
+                    <input type="number" min="0" value="00" max="59" name="seconds" id="seconds">
+                </div>
+                <button type="submit" id="set-time">start</button>
+            </form>
+        </div>
+    </div>
+    <div class='bar'> </div>
+    <script src="timer.js"></script>
+</body>
+
+</html>
